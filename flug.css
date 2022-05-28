@@ -1,0 +1,77 @@
+.sabuj{
+    height: 400px;
+    width: 850px;
+    background: green;
+    margin: 20px auto;
+    overflow: hidden;
+
+}
+.lal{
+    height: 250px;
+    width: 250px;
+    background: red;
+    border-radius: 50%;
+    margin: 70px auto;
+}
+.sabuj2{
+    height: 400px;
+    width: 850px;
+    background: green;
+    margin: 20px auto;
+    position: relative;
+
+}
+.lal2{
+    height: 250px;
+    width: 250px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    
+}
+.lal2 img{
+    width: 100%;
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+   
+
+
+}
+h2{
+    background: red;
+    font-size: 30px;
+    width: 250px;
+    padding: 10px 20px;
+    color: white;
+    box-shadow: 10px 5px 10px gray;
+    margin: 50px auto;
+}
+h1{
+    font-size: 30px;
+    width: 250px;
+    padding: 10px 20px;
+    color: green;
+    text-shadow: 10px 5px 1px gray;
+    margin: 50px auto;
+}
+
+p{
+    background: yellow;
+    border-radius: 5px;
+    padding: 20px;
+    width: 350px;
+    margin: 20px auto;
+    text-align: justify;
+    font-family: tahoma;
+
+}

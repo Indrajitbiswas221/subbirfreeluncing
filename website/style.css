@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header-area{
+    background: #2c3e50;
+}
+.logo-area{
+    width: 100px;
+    margin: auto;
+}
+.logo-area img{
+    width: 100%;
+}
+.main-area .content-area{
+    width: 75%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.main-area .side-area{
+    width: 20%;
+    box-sizing: border-box;
+    margin-left: 5%;
+    float: left;
+}
+.main-area{
+    width: 90%;
+    margin: auto;
+}
+.main-area::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.content-area article h1, .about-me h1{
+    color: green;
+    font-family: tahoma;
+}
+
+footer h1{
+    color: white;
+    background: red;
+    text-align: center;
+    font-family: tahoma;
+    font-size: 22px;
+    padding: 12px;
+}

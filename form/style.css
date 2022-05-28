@@ -1,0 +1,39 @@
+body{
+    background-image: url(image/background.jpg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+.amader-form{
+    width: 600px;
+    background: rgba(0, 0, 0, .5);
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+.amader-form form label{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.amader-form form input{
+    display: block;
+    width: 100%;
+    border: 1px solid yellow;
+    background: transparent;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 3px;
+    color: white;
+    border-radius: 5px;
+}
+.amader-form form input[type=submit]{
+    width: 200px;
+    margin: 10px 0;
+}
+.amader-form form p{
+    color: white;
+    font-size: 20px;
+}
+.amader-form form a{
+    color: yellow;
+}

@@ -1,0 +1,31 @@
+p{
+    color: red;
+    background: green ;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: overline;
+}
+a{
+    font-size: 22px;
+    color: white;
+    background: green;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+.samsu{
+    height: 150px;
+    width: 200px;
+    border: 10px solid green;
+    background-color: green;
+    background: radial-gradient(green, yellow, red, blue);
+}
+.villen{
+    height: 200px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 10px auto;
+    border: 10px solid red;
+    background: red;
+    
+}

@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: red;
+    height: 200px;
+}
+.left-area{
+    background: violet;
+    height: 200px;
+    width: 35%;
+    float: left;
+
+}
+.middle-area{
+    background: tomato;
+    height: 200px;
+    width: 30%;
+    float: left;  
+}
+.right-area{
+    background: orange;
+    height: 200px;
+    width: 35%;
+    float: left;
+}
+.footer{
+    background: green;
+    height: 200px;
+}
+.section::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+@media all and (max-width: 800px){
+    .left-area{
+        width: 30%;
+    
+    }
+    .middle-area{
+        width: 40%;
+    }
+    .right-area{
+        width: 30%;
+    }
+}
+@media all and (max-width: 400px){
+    .left-area{
+        width: 100%;
+        float: none;
+        
+    }
+    .middle-area{
+        width: 100%;
+        float: none;
+
+    }
+    .right-area{
+        width: 100%;
+        float: none;
+        
+    }
+}
