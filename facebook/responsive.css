@@ -1,0 +1,105 @@
+/*login area responsive desin start here*/
+@media all and (max-width: 990px){
+    .middle-area{
+        width: 90%;
+}
+}
+@media all and (max-width: 900px){
+    .logo-area{
+        width:40%;
+    }
+    .login-area{
+        width: 60%;
+    }
+    .middle-area{
+        width: 96%;
+}
+}
+@media all and (max-width: 850px){
+    .logo-area{
+        width:27%;
+    }
+    .login-area{
+        width: 73%;
+    
+    }
+    .logo{
+        width: 80%;
+    }
+    .logo img{
+        width: 100%;
+        margin-top: 7px;
+    }
+}
+@media all and (max-width: 690px){
+    .login-first{
+        float: none;
+    }
+    .login-second{
+        float: none;
+    }
+    .login-third{
+        float: none;
+    } 
+    .loin-form{
+        float: none;
+    }
+    .logo-area{
+        width:50%;
+    }
+    .login-area{
+        width: 50%;
+    
+    }
+    .logo img{
+        margin-top: 20px;
+    }
+    .middle-area{
+        width: 80%;
+}
+.logo{
+    width: 95%;
+}
+}
+@media all and (max-width: 490px){
+    .login-first{
+        float: none;
+    }
+    .login-second{
+        float: none;
+    }
+    .login-third{
+        float: none;
+    } 
+    .loin-form{
+        float: none;
+    }
+    .logo-area{
+        width:100%;
+    }
+    .login-area{
+        width: 100%;
+    
+    }
+    .logo img{
+        margin-top: 20px;
+    }
+    .middle-area{
+        width: 80%;
+}
+.logo{
+    width: 95%;
+}
+.logo-area{
+    float:none;
+}
+.login-area{
+    float: none;
+
+}
+.login-first input, .login-second input{
+    width: 100%;
+
+}
+}
+/*sineup area desin start here*/

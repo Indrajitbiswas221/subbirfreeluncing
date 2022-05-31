@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+.logo{
+    width: 50%;
+}
+.logo img{
+    width: 100%;
+    margin-top: 10px;
+}
+.header-area{
+    background: #3a5998;
+    padding: 10px 0;
+}
+.logo-area{
+    width:40%;
+    float: left;
+}
+.login-area{
+    width: 60%;
+    float: left;
+}
+.middle-area:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.middle-area{
+    width: 85%;
+    margin: auto;
+}
+.loin-form{
+    float: right;
+}
+.loin-form input{
+    display: block;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.login-first{
+    float: left;
+}
+.login-second{
+    float: left;
+}
+.login-third{
+    float: left;
+}
+.login-area:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.login-area label{
+    color: #fff;
+    margin-bottom: 5px;
+    display: block;
+    cursor: pointer;
+    font-size: 12px;
+}
+.login-second a{
+    color: #9cb4d8;
+    font-size: 12px;
+    margin-top: 2px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.login-third input{
+    background: #4267b2;
+    border: 1px solid #4267b2;
+    margin-top: 19px;
+    margin-left: 5px;
+    cursor: pointer;
+    color: #fff;
+    padding: 3px;
+
+}
+.login-third input:hover{
+    background: #365899;
+    border: 1px solid #365899;
+
+}
+/*sinup area desin here*/
+.sinup-left{
+    width: 50%;
+    float: left;
+}
+.sinup-right{
+    width: 50%;
+    float: left;
+}
+.sinup-area:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.sinup-area{
+    background: linear-gradient(to right bottom, #fff, #D4D9E8);
+}
+.map img{
+    width: 100%;
+    display: block;
+}
+.sinup-left p{
+    color: #0E388A;
+    width: 90%;
+    font-weight: bold;
+}
+.sinup-right h1{
+    color: #333;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.sinup-right p{
+    color: #333;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.sinup-right .sinup input[type=text], .sinup-right .sinup input[type=password]{
+    width: 100%;
+    font-size: 18px;
+    padding: 2px;
+    border: 1px solid #9cb4d8;
+    box-sizing: border-box;
+    margin: 5px 0;
+}
+.sinup-right .sinup .username input:nth-child(1){
+    width: 48%;
+    float: left;
+}
+.sinup-right .sinup .username input:nth-child(2){
+    width: 48%;
+    float: right;
+}
+.birthday-date h4{
+    color: #333;
+    margin-bottom: 7px;
+}
+.birthday-date select{
+    padding: 3px;
+    font-size: 15px;
+    border: 1px solid #bdc7dB;
+}
+.birthday-date{
+    float: left;
+}
+.birthday-text{
+    float: left;
+    width: 40%;
+}
+.birthday-text a{
+    color: #365899;
+    font-size: 11px;
+    margin-top: 50px;
+    display: block;
+    margin-left: 10px;
+}
+.birthday:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.gender label{
+    font-size: 17px;
+    color: #333;
+    display: inline-block;
+    margin: 10px 0;
+}
+p.policy{
+    font-size: 11px;
+    color: #777;
+    width: 70%;
+}
+.sinup-right input[type=submit]{
+    background: linear-gradient(#67ae55, #578843);
+    padding: 7px 30px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid #777;
+    cursor: pointer;
+}
+.sinup-right input[type=submit]:hover{
+    background: linear-gradient(#578843, #67ae55);
+}
+.sinup-right h4{
+    font-size: 12px;
+    color: #777;
+}
